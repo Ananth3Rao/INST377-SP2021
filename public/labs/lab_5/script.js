@@ -1,5 +1,6 @@
 function mapInit() {
   // follow the Leaflet Getting Started tutorial here
+  var mymap
   return map;
 }
 
