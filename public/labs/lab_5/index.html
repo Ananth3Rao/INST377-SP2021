@@ -6,6 +6,17 @@
 
     <link
       rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
     />
     <link
@@ -20,25 +31,15 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200;1,600;1,800&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-      crossorigin=""
-    />
-    <script
-      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-      crossorigin=""
-    ></script>
-    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <section class="section">
       <div class="container">
-        <h1 class="title">Ananth Rao's Lab 5</h1>
         <div class="columns">
           <div class="column">
+            <h1 class="title">Ananth Rao's Lab 5</h1>
+            <div class="subtitle">Zip Code Food Search</div>
             <form class="search-form">
               <input type="text" class="search" placeholder="Search Zip Code" />
               <a class="button is-small"> Submit </a>
@@ -47,9 +48,13 @@
               </ul>
             </form>
           </div>
+          <div class = "column">
+            <div id ="mapid"></div>
+          </div>
         </div>
         <div id="mapid"></div>
       </div>
     </section>
   </body>
+  <script src="script.js"></script>
 </html>

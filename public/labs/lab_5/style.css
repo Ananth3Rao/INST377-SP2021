@@ -1,0 +1,67 @@
+body {
+    line-height: 1.6;
+    font-size: 18px;
+    color: black;
+    padding: 0 10px;
+    background-color: rgb(221, 221, 206);
+}
+
+.block{
+    margin-bottom: 1.5rem;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,221,0.9402135854341737) 100%);
+  }
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900 !important;
+    text-decoration: 'underline';
+    line-height: 1.2;
+}
+
+.search{
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+
+span{
+ /* font-family: 'Open Sans', sans-serif;*/
+  margin-left: 10px;
+  font-style: italic !important;
+}
+address.alpha{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic !important;
+}
+
+.name{
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/*span.city, span.zip, span.address{
+  font-style: italic !important;
+  font-weight: inherit;
+}
+*/
+li.results{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#mapid {height: 480px;}
+
+.list-hearder {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.list-item {
+    border-radius: 4px;
+    color: black;
+    background: greenyellow;
+    padding: 5px;
+}
